@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cafés and corporate gifting | Phir Se Studio</title>
+<meta name="description" content="Bulk patchwork cushions and gifts with custom tags for cafés, designers and companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Instrument+Sans:wght@400..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.pt,.pre{display:none}.rv{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+<main>
+
+<section class="ph"><span class="eyebrow">Partners</span><h1 data-split style="margin-top:14px">Cafés, designers and <em>gift buyers</em></h1><p>Bring a story that guests can scan, touch and take home. Bulk prices, custom tags and display cards, all stitched in Faisalabad.</p></section>
+<section class="wrap"><div class="cards" id="how"></div></section>
+<section class="sec wrap"><span class="eyebrow">Programmes</span><h2 data-split style="margin:14px 0 44px">Pick the level that <em>fits</em></h2><div class="tiers" id="tiers"></div></section>
+<section class="wrap" id="quote"><div class="split" style="align-items:start">
+  <div><span class="eyebrow">Quote builder</span><h2 data-split style="margin:14px 0 20px">Estimate your <em>order</em></h2><p class="muted" style="margin-bottom:22px">Set quantities. The discount applies automatically once you pass 10, 25 or 50 pieces.</p><div id="items"></div>
+    <label class="chk"><input type="checkbox" id="tag"><span>Custom branded tag <span class="muted">(+ PKR 120 per piece)</span></span></label></div>
+  <div class="panel" style="position:sticky;top:100px"><h3>Your estimate</h3>
+    <div class="row" style="margin-top:14px"><span>Pieces</span><b id="qn">0</b></div><div class="row"><span>Subtotal</span><span id="qs">PKR 0</span></div><div class="row" style="color:var(--sage)"><span>Volume discount <b id="qd">0%</b></span><span id="qda">- PKR 0</span></div><div class="row"><span>Custom tags</span><span id="qt">PKR 0</span></div><div class="row tot"><span>Estimated total</span><span id="qtot">PKR 0</span></div><div class="meter"><i id="qm"></i></div><p class="muted" id="qh" style="font-size:.85rem;margin-bottom:18px"></p>
+    <form id="qf" novalidate><div class="g2"><label class="field"><span>Business name</span><input name="co"><em class="em">Please enter your business name</em></label><label class="field"><span>Your name</span><input name="nm"><em class="em">Please enter your name</em></label></div>
+    <label class="field"><span>Email</span><input name="em" type="email"><em class="em">Enter a valid email</em></label>
+    <label class="field"><span>Anything else we should know?</span><textarea name="msg" rows="2"></textarea></label>
+    <button class="btn" type="submit" id="qb" style="width:100%;justify-content:center">Request a quote</button></form>
+    <p class="muted" style="font-size:.8rem;margin-top:12px">Demo: the request is saved in your browser only.</p></div></div></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/motion@11.11.17/dist/motion.js"></script>
+<script src="js/data.js"></script><script src="js/art.js"></script><script src="js/main.js"></script>
+<script src="js/partners.js"></script>
+</body>
+</html>
